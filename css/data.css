@@ -1,0 +1,36 @@
+.section {
+  position: relative; }
+  .section .data-top {
+    width: 100%;
+    height: 50%; }
+    .section .data-top .dt-top {
+      z-index: 99;
+      margin-top: 10%;
+      background: url(../images/imgs/210@2x.png) no-repeat center center;
+      background-size: 80%;
+      height: 25%;
+      width: 80%; }
+      .section .data-top .dt-top img {
+        height: 100%; }
+    .section .data-top .dt-bot {
+      background: url(../images/imgs/214@2x.png) no-repeat center center;
+      background-size: 80%;
+      height: 51%;
+      margin-top: -5%;
+      z-index: -1; }
+      .section .data-top .dt-bot img {
+        height: 100%; }
+  .section .data-bot {
+    position: relative;
+    height: 10%;
+    background: url("../images/imgs/107@2x.png") no-repeat center center;
+    background-size: 48%;
+    text-align: center;
+    margin-top: 2%; }
+    .section .data-bot img {
+      width: 40%;
+      position: absolute;
+      top: 20%;
+      left: 30%; }
+
+/*# sourceMappingURL=data.css.map */

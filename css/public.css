@@ -1,0 +1,43 @@
+body {
+  background: url("../images/imgs/109@2x.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-flex;
+  flex-direction: column; }
+
+.header {
+  height: 45px;
+  background: #1C1C1F;
+  color: #fff;
+  line-height: 45px;
+  display: -webkit-flex; }
+  .header .left {
+    text-align: center;
+    flex: 1;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block; }
+  .header .right {
+    flex: 2;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 15px; }
+
+.section {
+  flex: 1;
+  overflow-y: scroll; }
+
+.footer {
+  height: 45px;
+  display: -webkit-flex;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 45px; }
+  .footer img {
+    height: 70%; }
+
+/*# sourceMappingURL=public.css.map */
